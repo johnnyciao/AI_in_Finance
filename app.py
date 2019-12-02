@@ -10,6 +10,9 @@ import numpy as np
 from sklearn import preprocessing, cross_validation, svm
 from sklearn.linear_model import LinearRegression
 
+# edit by JW
+# 20191202
+
 if 'ON_HEROKU' in os.environ:
     @app.route('/')
     def index():
